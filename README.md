@@ -125,8 +125,6 @@ start() {
     echo $"$PIDFILE exists (pid $PID), service $NAME is already running or crashed"
     return 0
   else
-    mkdir -p /var/run/$NAME
-    chown $USER:$USER /var/run/$NAME
     daemon --pidfile=$PIDFILE --user=$USER $"$NAME &"
     RETVAL=$?
     echo
