@@ -179,7 +179,8 @@ esac
 exit $?
 ```
 
-* You can use chkconfig
+* Now, you can use easely chkconfig, puppet, ...
 
 * Useful link
-(http://refspecs.linuxbase.org/LSB_3.1.1/LSB-Core-generic/LSB-Core-generic/iniscrptact.html)
+
+[linux spec](http://refspecs.linuxbase.org/LSB_3.1.1/LSB-Core-generic/LSB-Core-generic/iniscrptact.html)
