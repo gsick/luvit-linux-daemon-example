@@ -84,7 +84,7 @@ $ sudo chmod a+x /etc/init.d/<service_name>
 
 * Edit
 
-```shell
+```bash
 #!/bin/bash
 
 PATH=/usr/sbin:/usr/bin:/sbin:/bin
